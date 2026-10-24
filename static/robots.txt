@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://code-lai1.onrender.com/sitemap.xml

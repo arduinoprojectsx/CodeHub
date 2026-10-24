@@ -1,0 +1,364 @@
+/* Estilos gerais do corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Título do cabeçalho */
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Estilos da barra de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Estilos do conteúdo principal */
+main {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+button#cta-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#cta-button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos dos cards */
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card p {
+    color: #555;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+footer nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* ========================= */
+/* Estilos Responsivos */
+/* ========================= */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin-left: 0;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .intro h2 {
+        font-size: 1.5rem;
+    }
+
+    .intro p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    button#cta-button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    footer nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+.btn-cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-cta:hover {
+    background-color: #45a049;
+}
+
+/* Modal de Cookies */
+#cookie-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #222;
+    color: #fff;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 99999;
+    display: none; /* inicia escondido */
+    max-width: 600px; /* Aumentei a largura máxima */
+    width: 90%; /* Mantém responsividade */
+    text-align: center;
+}
+
+#cookie-modal p {
+    margin: 0 0 15px 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+#cookie-modal a {
+    color: #0af;
+    text-decoration: underline;
+}
+
+#cookie-modal button {
+    padding: 6px 15px;
+    background-color: #0af;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    }
+
+
+/* Responsivo para telas pequenas */
+@media (max-width: 400px) {
+    #cookie-modal {
+        padding: 15px 10px;
+    }
+
+    #cookie-modal button {
+        width: 100%;
+    }
+    }
+
+/* ========================= */
+/* Wrapper para banners fixos / 468x60 */
+.ad-banner-wrapper {
+    width: 468px;
+    height: 60px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #4CAF50; /* mesmo do header */
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+/* Native banner centralizado */
+.ad-native-wrapper {
+    width: 100%;
+    max-width: 728px;
+    margin: 20px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* Social Bar fixa no canto */
+.ad-socialbar-wrapper {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+}
+
+/* ========================= */
+/* Responsividade */
+@media (max-width: 1024px) {
+    .ad-banner-wrapper {
+        width: 90%; /* se encaixa em tablets */
+        height: auto;
+    }
+    .ad-native-wrapper {
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .ad-banner-wrapper {
+        width: 100%;
+        height: auto;
+    }
+    .ad-native-wrapper {
+        width: 100%;
+    }
+    .ad-socialbar-wrapper {
+        bottom: 5px;
+        right: 5px;
+    }
+}
+
+/* ========================= */
+/* Popunder / overlay (se possível) */
+.ad-popunder-wrapper {
+    display: none; /* só ativo via JS se desktop */
+}
+
+@media (min-width: 769px) {
+    .ad-popunder-wrapper {
+        display: block;
+    }
+}
+
+html, body {
+    overflow-x: hidden; /* previne scroll horizontal indesejado */
+}
+
+header img {
+    display: block;
+    margin: 0 auto; /* Centraliza no mobile */
+    max-width: 150px;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+/* Para telas grandes (PC) */
+@media (min-width: 768px) {
+    <br>
+    header img {
+        margin: 0 0 0 30px; /* Empurra um pouco para a esquerda (30px) */
+        max-width: 180px; /* Pode aumentar no desktop */
+    }
+}
