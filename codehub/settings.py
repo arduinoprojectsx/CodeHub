@@ -12,12 +12,7 @@ SECRET_KEY = 'django-insecure-_wkmbk%v*8)f!)-817ut606$!6$$$@03x(1m%htutxz422u7$'
 DEBUG=True
 # settings.py
 
-ALLOWED_HOSTS = [
-    'localhost',               # Para rodar localmente
-    '127.0.0.1',                # Para rodar localmente
-    'codehub-f48g.onrender.com',   # Seu domínio no Render
-    'www.codehub-f48g.onrender.com',
-]
+ALLOWED_HOSTS = ["*"]
 
 # 📦 Aplicações instaladas
 INSTALLED_APPS = [
