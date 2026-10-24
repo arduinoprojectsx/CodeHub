@@ -1,0 +1,32 @@
+{% extends "paginas/base.html" %}
+{% load static i18n %}
+
+{% block title %}
+    <title>{% trans "Termos" %}</title>
+{% endblock %}
+
+{% block main %}
+<main>
+    <div class="container">
+        <h2>{% trans "Termos de Uso" %}</h2>
+        <p>{% trans "Ao acessar este site, você concorda com estes termos." %}</p>
+        <p>{% trans "O conteúdo do site é apenas informativo. Não garantimos que todas as informações estejam sempre atualizadas ou corretas." %}</p>
+        <p>{% trans "É proibida a cópia, reprodução ou distribuição do conteúdo sem autorização." %}</p>
+        <p>{% trans "Podemos alterar estes termos a qualquer momento, sem aviso prévio." %}</p>
+
+        <h3>{% trans "Responsabilidades do Usuário" %}</h3>
+        <p>{% trans "Você se compromete a usar o site de maneira ética, respeitando a legislação vigente e os direitos de terceiros." %}</p>
+        <p>{% trans "Qualquer tentativa de burlar, hackear ou causar prejuízo à integridade do site poderá resultar em bloqueio e medidas legais." %}</p>
+
+        <h3>{% trans "Política de Privacidade" %}</h3>
+        <p>{% trans "Respeitamos sua privacidade. Os dados coletados são utilizados apenas para melhorar sua experiência no site." %}</p>
+        <p>{% trans "Não compartilhamos suas informações com terceiros sem seu consentimento, exceto quando exigido por lei." %}</p>
+
+        <h3>{% trans "Contato" %}</h3>
+        <p>{% trans "Caso tenha dúvidas sobre estes termos, entre em contato conosco por meio da seção de contato do site." %}</p>
+
+        <h3>{% trans "Legislação Aplicável" %}</h3>
+        <p>{% trans "Estes termos são regidos pelas leis do país em que a empresa está sediada." %}</p>
+    </div>
+</main>
+{% endblock %}

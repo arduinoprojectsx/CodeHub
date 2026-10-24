@@ -1,0 +1,168 @@
+{% extends 'paginas/base.html' %}
+{% load static i18n %}
+
+{% block title %}
+    <title>{% trans "Solicitar Serviço" %}</title>
+{% endblock %}
+
+{% block header %}
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        form {
+            max-width: 600px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        select, input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        header .top-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        header .top-bar img {
+            height: 90px;
+        }
+
+        header .top-bar h1 {
+            flex: 1;
+            text-align: center;
+            margin: 0;
+            font-size: 1.8rem;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            list-style: none;
+            padding-left: 0;
+            justify-content: center;
+        }
+
+        @media (max-width: 768px) {
+            header .top-bar {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            header .top-bar h1 {
+                margin-top: 15px;
+                font-size: 1.5rem;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    </style>
+
+    <header>
+        <div class="container top-bar">
+            <div>
+                <img src="{% static 'img/logo.png' %}" alt="CodeHub Logo">
+            </div>
+            <h1>{% trans "Solicitar um Serviço" %}</h1>
+            <div style="width: 90px;"></div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="{% url 'index' %}">{% trans "Home" %}</a></li>
+                <li><a href="{% url 'sobre' %}">{% trans "Sobre" %}</a></li>
+                <li><a href="{% url 'servicos' %}">{% trans "Serviços" %}</a></li>
+                <li><a href="{% url 'contato' %}">{% trans "Contato" %}</a></li>
+                <li><a href="{% url 'info' %}">{% trans "Informações" %}</a></li>
+            </ul>
+        </nav>
+    </header>
+{% endblock %}
+
+{% block main %}
+<main>
+    <div class="container">
+        <center><h2>{% trans "Preencha o formulário" %}</h2></center>
+
+        <p>{% trans "Na CodeHub, acreditamos que a inovação digital começa com a compreensão das necessidades reais dos nossos clientes. Nossa missão é transformar ideias em soluções tecnológicas eficazes, acessíveis e impactantes para empresas, estudantes e profissionais." %}</p>
+
+        <p>{% trans "Solicitar um serviço conosco é o primeiro passo para tirar seu projeto do papel. Nossa equipe está preparada para atender demandas como desenvolvimento web, aplicativos móveis e softwares desktop, sempre respeitando princípios de ética, transparência e comprometimento." %}</p>
+
+        <p>{% trans "Criamos a CodeHub para facilitar o acesso à tecnologia em países onde o desenvolvimento digital ainda é um desafio. Entendemos que a transformação começa com pequenas ações, por isso valorizamos cada cliente, independente do tamanho do projeto." %}</p>
+
+        <p>{% trans "A ética é o alicerce de tudo que fazemos. Valorizamos o respeito, a honestidade e a confidencialidade em todas as etapas do processo. Nosso compromisso é com resultados de qualidade e com a satisfação total de quem confia em nós." %}</p>
+
+        <p>{% trans "Preencha o formulário abaixo com os detalhes do serviço desejado. Assim que recebermos sua solicitação, entraremos em contato o mais breve possível para alinhar expectativas e dar início à construção da sua ideia." %}</p>
+
+        <form method="post">
+            {% csrf_token %}
+            <label for="tipo">{% trans "Tipo de Serviço:" %}</label>
+            <select name="tipo" id="tipo" required>
+                <option value="">{% trans "Selecione..." %}</option>
+                <option value="Desenvolvimento Web">{% trans "Desenvolvimento Web" %}</option>
+                <option value="Aplicativo Mobile">{% trans "Aplicativo Mobile" %}</option>
+                <option value="Software Desktop">{% trans "Software Desktop" %}</option>
+            </select>
+
+            <label for="email_cliente">{% trans "Seu E-mail:" %}</label>
+            <input type="email" name="email_cliente" id="email_cliente" required>
+
+            <label for="mensagem">{% trans "Descrição do Projeto:" %}</label>
+            <textarea name="mensagem" id="mensagem" rows="5" required></textarea>
+
+            <button type="submit">{% trans "Enviar Pedido" %}</button>
+        </form>
+
+        {% if enviado %}
+            <p style="color:green;">✅ {% trans "Pedido enviado com sucesso!" %}</p>
+        {% elif erro %}
+            <p style="color:red;">❌ {% trans "Erro ao enviar pedido. Tente novamente mais tarde." %}</p>
+        {% endif %}
+    </div>
+</main>
+{% endblock %}
+
+{% block footer %}
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CodeHub | {% trans "Todos os direitos reservados." %}</p>
+        </div>
+    </footer>
+{% endblock %}

@@ -1,0 +1,160 @@
+{% extends 'paginas/base.html' %}
+{% load static i18n %}
+
+{% block title %}
+    <title>{% trans "Sobre" %}</title>
+{% endblock %}
+
+{% block header %}
+    <style>
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 10px;
+        }
+
+        .team-member {
+            display: inline-block;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        header .top-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        header .top-bar img {
+            height: 90px;
+        }
+
+        header .top-bar h1 {
+            flex: 1;
+            text-align: center;
+            margin: 0;
+            font-size: 1.8rem;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            list-style: none;
+            padding-left: 0;
+            justify-content: center;
+        }
+    </style>
+
+    <header>
+        {% include "paginas/banner.html" %}
+        <div class="container top-bar">
+            <div>
+                <img src="{% static 'img/logo.png' %}" alt="CodeHub Logo">
+            </div>
+            <h1>{% trans "Bem-vindo à CodeHub!" %}</h1>
+            <div style="width: 90px;"><!-- Espaço vazio para equilibrar --></div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="{% url 'index' %}">{% trans "Home" %}</a></li>
+                <li><a href="{% url 'sobre' %}">{% trans "Sobre" %}</a></li>
+                <li><a href="{% url 'servicos' %}">{% trans "Serviços" %}</a></li>
+                <li><a href="{% url 'contato' %}">{% trans "Contato" %}</a></li>
+                <li><a href="{% url 'info' %}">{% trans "Informações" %}</a></li>
+            </ul>
+        </nav>
+    </header>
+{% endblock %}
+
+{% block main %}
+    <main>
+        <div class="container">
+            <!-- Seção Quem Somos -->
+            <section class="intro">
+                <h2>{% trans "Quem Somos?" %}</h2>
+                <p>{% trans "Somos uma empresa inovadora, focada em proporcionar as melhores soluções tecnológicas para nossos clientes. Trabalhamos com um time especializado, comprometido em transformar ideias em realidade!" %}</p>
+            </section>
+
+            <!-- Seção Nossa Missão -->
+            <section class="missao">
+                <h2>{% trans "Nossa Missão" %}</h2>
+                <p>{% trans "Levar inovação e qualidade aos nossos clientes, criando produtos e serviços que geram valor e impacto real no mercado." %}</p>
+            </section>
+
+            <!-- Seção Valores -->
+            <section class="valores">
+                <h2>{% trans "Valores" %}</h2>
+                <ul>
+                    <li>{% trans "Inovação constante" %}</li>
+                    <li>{% trans "Comprometimento com a qualidade" %}</li>
+                    <li>{% trans "Transparência e ética" %}</li>
+                    <li>{% trans "Respeito ao cliente e ao meio ambiente" %}</li>
+                </ul>
+            </section>
+
+            <!-- Seção Conheça a Equipe -->
+            <section class="equipe">
+                <h2>{% trans "Conheça Nossa Equipe" %}</h2>
+                <div class="team-member">
+                    <img src="{% static 'perfil.png' %}" alt="Josemar Neves">
+                    <h3>Josemar Neves</h3>
+                    <p>{% trans "Fundador & CEO" %}</p>
+                </div>
+                <div class="team-member">
+                    <img src="{% static 'perfil.png' %}" alt="Josemar Neves">
+                    <h3>Josemar Neves</h3>
+                    <p>{% trans "Diretor de Marketing" %}</p>
+                </div>
+                <div class="team-member">
+                    <img src="{% static 'perfil.png' %}" alt="Josemar Neves">
+                    <h3>Josemar Neves</h3>
+                    <p>{% trans "Gerente de TI" %}</p>
+                </div>
+            </section>
+
+            <!-- NOVA SEÇÃO ADICIONAL: SOBRE A CODEHUB -->
+            <section class="sobre-codehub">
+                <center><h2>{% trans "Por que Criamos a CodeHub?" %}</h2></center>
+                <p>{% trans "A CodeHub surgiu da necessidade de preencher uma lacuna no mercado tecnológico: a falta de acesso à tecnologia de qualidade por parte de pequenos empreendedores, jovens criadores e profissionais autônomos que têm ideias incríveis, mas não possuem os recursos ou conhecimentos necessários para torná-las realidade." %}</p>
+
+                <p>{% trans "Com um espírito jovem, ousado e inovador, decidimos construir uma empresa com base sólida em ética, inclusão e impacto social. Queremos transformar vidas por meio do poder do código. Acreditamos que cada projeto é mais do que uma tarefa técnica: é uma ponte entre o presente e um futuro mais justo e conectado." %}</p>
+
+                <p>{% trans "Acreditamos firmemente que a tecnologia só faz sentido quando gera valor humano. Por isso, atuamos com transparência, compromisso com a verdade, responsabilidade em cada entrega e respeito absoluto pelas pessoas e suas histórias. A ética, para nós, não é um diferencial — é uma base inegociável." %}</p>
+
+                <p>{% trans "Nosso foco não está apenas no que fazemos, mas em como fazemos. Evitamos soluções prontas e padronizadas, e apostamos na criação sob medida: cada cliente é único, e seu projeto deve refletir isso." %}</p>
+
+                <p>{% trans "A CodeHub desenvolve soluções em diversas linguagens e plataformas: usamos Python, PHP, Java, JavaScript e frameworks como Django, Laravel, React, React Native e Flutter. Nossos projetos abrangem desde sites institucionais até sistemas de gestão complexos, aplicativos mobile, lojas virtuais e soluções desktop." %}</p>
+
+                <p>{% trans "Também acreditamos na educação como ferramenta de transformação. Por isso, oferecemos conteúdos gratuitos e pagos para ajudar a nova geração de programadores, designers e desenvolvedores a crescerem em carreira, propósito e visão." %}</p>
+
+                <p>{% trans "Criar a CodeHub foi mais do que fundar uma empresa. Foi assumir uma missão de impacto social, cultural e econômico. Sabemos que existem milhares de mentes brilhantes em Angola, em África e em todo o mundo esperando por uma chance. Queremos ser essa chance, essa ponte, esse espaço seguro e criativo." %}</p>
+
+                <p>{% trans "Se você tem uma ideia, um sonho, um projeto ou apenas vontade de aprender e crescer no mundo da tecnologia, a CodeHub é pra você. Venha construir algo significativo com a gente." %}</p>
+            </section>
+        </div>
+    </main>
+{% endblock %}
+
+{% block footer %}
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CodeHub | {% trans "Todos os direitos reservados." %}</p>
+            <nav>
+                <ul>
+                    <li><a href="{% url 'index' %}">{% trans "Home" %}</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+{% endblock %}

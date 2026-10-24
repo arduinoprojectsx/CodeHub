@@ -1,0 +1,118 @@
+{% extends 'paginas/base.html' %}
+{% load i18n %}
+
+{% block main %}
+
+<style>  
+    .feedback-container {  
+        max-width: 700px;  
+        margin: 30px auto;  
+        background-color: #f5f5f5;  
+        padding: 35px;  
+        border-radius: 14px;  
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);  
+        font-family: Arial, sans-serif;  
+    }  
+  
+    .feedback-container h2 {  
+        color: #333;  
+        margin-bottom: 25px;  
+        font-size: 28px;  
+    }  
+  
+    .feedback-container p.intro-text {
+        margin-bottom: 25px;
+        color: #555;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .feedback-container label {  
+        display: block;  
+        font-weight: bold;  
+        margin-bottom: 6px;  
+        color: #444;
+    }  
+  
+    .feedback-container input,  
+    .feedback-container textarea {  
+        width: 100%;  
+        padding: 12px;  
+        border-radius: 6px;  
+        border: 1px solid #ccc;  
+        margin-bottom: 20px;  
+        font-size: 15px;
+        transition: border-color 0.3s ease;  
+    }  
+
+    .feedback-container input:focus,  
+    .feedback-container textarea:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+  
+    .feedback-container button {  
+        width: 100%;  
+        padding: 14px;  
+        background-color: #28a745;  
+        color: white;  
+        border: none;  
+        font-weight: bold;  
+        border-radius: 6px;  
+        cursor: pointer;  
+        font-size: 16px;
+    }  
+  
+    .feedback-container button:hover {  
+        background-color: #218838;  
+    }  
+  
+    .message {  
+        margin-bottom: 15px;  
+        font-weight: bold;  
+    }  
+  
+    .message.success {  
+        color: green;  
+    }  
+  
+    .message.error {  
+        color: red;  
+    }  
+</style>  
+
+<div class="feedback-container">  
+    <center><h2>{% trans "Envie seu Feedback" %}</h2></center>
+
+    <p class="intro-text">
+        {% trans "Na CodeHub, valorizamos profundamente a opinião de cada usuário. Nosso objetivo é construir soluções digitais inovadoras e centradas nas pessoas. Seu feedback nos ajuda a evoluir, corrigir falhas e fortalecer ainda mais nosso compromisso com a ética, inovação e excelência." %}
+        {% trans "Acreditamos em uma tecnologia que aproxima, educa e transforma vidas. Esta página foi criada para ser um canal aberto e transparente." %}
+    </p>
+
+    <p class="intro-text">
+        {% trans "Queremos saber como podemos melhorar, quais funcionalidades você gostaria de ver em nossos sistemas web, mobile ou desktop, e como você avalia nossos serviços baseados em tecnologias como Python, PHP, Java, JavaScript e frameworks modernos. Sua contribuição é essencial para que possamos seguir crescendo com responsabilidade e propósito." %}
+    </p>
+
+    {% if enviado %}
+        <div class="message success">{% trans "Obrigado pelo seu feedback!" %}</div>  
+    {% elif erro %}  
+        <div class="message error">{% trans "Ocorreu um erro ao enviar. Tente novamente." %}</div>  
+    {% endif %}  
+
+    <form method="post">  
+        {% csrf_token %}  
+
+        <label for="nome">{% trans "Nome" %}:</label>  
+        <input type="text" name="nome" id="nome" required>  
+
+        <label for="email">{% trans "Email" %}:</label>  
+        <input type="email" name="email" id="email" required>  
+
+        <label for="mensagem">{% trans "Mensagem" %}:</label>  
+        <textarea name="mensagem" id="mensagem" rows="6" required></textarea>  
+
+        <button type="submit">{% trans "Enviar Feedback" %}</button>  
+    </form>
+</div>  
+
+{% endblock %}

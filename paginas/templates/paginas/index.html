@@ -1,0 +1,62 @@
+{% extends "paginas/base.html" %}
+{% load i18n %}
+
+
+
+
+{% block main %}
+<main>
+    <script src="https://5gvci.com/act/files/tag.min.js?z=11043645" data-cfasync="false" async></script>
+    <div class="container">
+
+        <!-- NOVO TEXTO DE BOAS-VINDAS -->
+        <section class="intro">
+            <h2>{% trans "Bem-vindo à CodeHub!" %}</h2>
+            <p>{% trans "A CodeHub é um espaço digital criado para conectar mentes criativas, entusiastas da tecnologia e empreendedores que desejam transformar ideias em realidade. Nosso objetivo é democratizar o acesso ao conhecimento em desenvolvimento web, design, aplicativos e soluções tecnológicas." %}</p>
+
+            <p>{% trans "Na CodeHub, você encontra conteúdo educativo, serviços personalizados e uma comunidade comprometida com a inovação e a transformação digital. Aqui, acreditamos que tecnologia deve ser acessível a todos — não importa onde você esteja." %}</p>
+
+            <p>{% trans "Explore nosso site, conheça nossos serviços e venha construir o futuro com a gente." %}</p>
+
+            <a href="{% url 'sobre' %}" class="btn-cta">{% trans "Saiba Mais" %}</a>
+        </section>
+
+        <!-- SEÇÃO DOS CARDS -->
+        <section class="cards">
+            <div class="card">
+                <h3>{% trans "Design Gráfico" %}</h3>
+                <p>{% trans "Oferecemos designs modernos e atrativos para sua marca." %}</p>
+            </div>
+            <div class="card">
+                <h3>{% trans "Desenvolvimento Web" %}</h3>
+                <p>{% trans "Criamos sites e sistemas personalizados para seu negócio." %}</p>
+            </div>
+            <div class="card">
+                <h3>{% trans "Desenvolvimento Mobile e Desktop" %}</h3>
+                <p>{% trans "Aplicativos para celular e programas para computador sob medida." %}</p>
+            </div>
+        </section>
+
+        <!-- CONTEÚDO EXPANDIDO -->
+        <section class="about-codehub">
+            <center><h2>{% trans "Nossa Missão" %}</h2></center>
+            <p>{% trans "A CodeHub nasceu de um desejo simples, porém poderoso: tornar a tecnologia acessível, funcional e transformadora para todas as pessoas, independentemente de sua origem, renda ou localização geográfica. Em um mundo cada vez mais digital, percebemos que muitas comunidades, profissionais e até pequenas empresas estavam sendo deixadas para trás. Foi com esse espírito de inclusão, inovação e responsabilidade que fundamos a CodeHub." %}</p>
+
+            <p>{% trans "Nossa missão é promover o desenvolvimento humano e social por meio da tecnologia. Acreditamos que cada linha de código escrita deve ter um propósito claro: melhorar a vida de alguém. Seja um site para um pequeno negócio, um sistema para uma escola, ou um aplicativo para facilitar o dia a dia de uma comunidade, cada projeto é uma oportunidade de gerar impacto positivo." %}</p>
+
+            <p>{% trans "A ética é um pilar fundamental em tudo o que fazemos. Atuamos com total transparência, respeitando a privacidade dos usuários, os princípios de acessibilidade digital e a diversidade cultural. Nosso compromisso vai além de entregar um bom serviço: buscamos criar relações duradouras baseadas na confiança, no respeito mútuo e no crescimento conjunto." %}</p>
+
+            <p>{% trans "A CodeHub representa um novo modelo de empresa digital, onde o lucro e o propósito caminham juntos. Valorizamos a honestidade, o trabalho em equipe e a vontade de aprender constantemente. Para nós, a tecnologia não é um fim, mas um meio para criar oportunidades, abrir portas e dar voz a quem antes não era ouvido." %}</p>
+
+            <p>{% trans "Criamos a CodeHub porque acreditamos que o futuro não pertence apenas aos grandes players da tecnologia, mas também aos pequenos criadores, sonhadores e empreendedores locais. Por isso, oferecemos soluções sob medida com preços acessíveis, sem abrir mão da qualidade, da segurança e da escalabilidade." %}</p>
+
+            <p>{% trans "Estamos comprometidos com a transformação digital em Angola, em África e no mundo. Queremos inspirar a nova geração de desenvolvedores, designers e empreendedores. Nossa plataforma é mais do que uma vitrine de serviços — é um ecossistema vivo de aprendizado, criação e colaboração." %}</p>
+
+            <p>{% trans "Na prática, isso se traduz no uso de tecnologias modernas e acessíveis. Desenvolvemos soluções utilizando linguagens como Python, Java, JavaScript, PHP e frameworks como Django, React, Flutter e Laravel. Atendemos demandas tanto para web quanto para mobile e desktop, adaptando nossas ferramentas às necessidades reais de cada projeto." %}</p>
+
+            <p>{% trans "Seja você um cliente, parceiro ou colaborador, saiba que ao se conectar com a CodeHub, você está se unindo a uma empresa que acredita no poder da tecnologia para transformar o presente e construir um futuro melhor, mais justo e mais digital." %}</p>
+        </section>
+
+    </div>
+</main>
+{% endblock %}

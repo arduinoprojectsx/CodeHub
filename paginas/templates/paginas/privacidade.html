@@ -1,0 +1,34 @@
+{% extends "paginas/base.html" %}
+{% load static i18n %}
+
+{% block title %}
+    <title>{% trans "Privacidade" %}</title>
+{% endblock %}
+
+{% block main %}
+<main>
+    <div class="container">
+        <h2>{% trans "Política de Privacidade" %}</h2>
+        <p>{% trans "Este site respeita sua privacidade. Nenhuma informação pessoal é coletada sem o seu consentimento." %}</p>
+        <p>{% trans "Não vendemos ou compartilhamos informações pessoais com terceiros." %}</p>
+        <p>{% trans "Ao continuar navegando, você concorda com o uso de cookies." %}</p>
+
+        <h3>{% trans "Coleta de Informações" %}</h3>
+        <p>{% trans "As informações coletadas de forma automática incluem dados como tipo de navegador, idioma preferido, páginas acessadas e tempo de visita." %}</p>
+        <p>{% trans "Essas informações são usadas exclusivamente para entender como os visitantes utilizam o site e melhorar a experiência do usuário." %}</p>
+
+        <h3>{% trans "Segurança" %}</h3>
+        <p>{% trans "Adotamos medidas técnicas e organizacionais para proteger seus dados contra acesso não autorizado, perda ou destruição." %}</p>
+
+        <h3>{% trans "Cookies" %}</h3>
+        <p>{% trans "Cookies são pequenos arquivos armazenados no seu dispositivo para ajudar a lembrar suas preferências e melhorar a navegação." %}</p>
+        <p>{% trans "Você pode desativar os cookies nas configurações do seu navegador, mas isso pode afetar o funcionamento de algumas partes do site." %}</p>
+
+        <h3>{% trans "Alterações na Política" %}</h3>
+        <p>{% trans "Reservamo-nos o direito de modificar esta Política de Privacidade a qualquer momento. As alterações entrarão em vigor imediatamente após a publicação." %}</p>
+
+        <h3>{% trans "Contato" %}</h3>
+        <p>{% trans "Se você tiver dúvidas sobre esta política, entre em contato conosco pela seção de contato do site." %}</p>
+    </div>
+</main>
+{% endblock %}

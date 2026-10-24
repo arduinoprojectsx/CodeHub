@@ -1,0 +1,148 @@
+{% extends 'paginas/base.html' %}
+{% load static i18n %}
+
+{% block title %}
+    <title>{% trans "Contato" %}</title>
+{% endblock %}
+
+{% block header %}
+    <style>
+        header {
+            background-color: #4CAF50;
+            padding: 15px 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 15px;
+        }
+        .top-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .logo {
+            height: 90px;
+        }
+        .title-menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+        }
+        .title-menu h1 {
+            margin: 0;
+            font-size: 24px;
+            color: white;
+        }
+        nav ul {
+            display: flex;
+            gap: 15px;
+            list-style: none;
+            padding: 0;
+            margin: 8px 0 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #4CAF50;
+        }
+        @media (max-width: 768px) {
+            .top-bar {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .title-menu {
+                margin-top: 10px;
+            }
+        }
+        .contato-info {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contato-info h2 {
+            color: #4CAF50;
+        }
+        .contato-info p {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        .info-extra {
+            max-width: 800px;
+            margin: 40px auto 0;
+            padding: 20px;
+            background-color: #eafbea;
+            border-left: 5px solid #4CAF50;
+            border-radius: 8px;
+        }
+        .info-extra h3 {
+            color: #388e3c;
+            margin-bottom: 10px;
+        }
+        .info-extra p {
+            margin: 8px 0;
+            font-size: 15px;
+        }
+    </style>
+
+    <header>
+        <div class="container top-bar">
+            <img src="{% static 'img/logo.png' %}" alt="CodeHub Logo" class="logo">
+            <div class="title-menu">
+                <h1>{% trans "Entre em Contato" %}</h1>
+                <nav>
+                    <ul>
+                        <li><a href="{% url 'index' %}">{% trans "Home" %}</a></li>
+                        <li><a href="{% url 'sobre' %}">{% trans "Sobre" %}</a></li>
+                        <li><a href="{% url 'servicos' %}">{% trans "Serviços" %}</a></li>
+                        <li><a href="{% url 'contato' %}">{% trans "Contato" %}</a></li>
+                        <li><a href="{% url 'info' %}">{% trans "Informações" %}</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+{% endblock %}
+
+{% block main %}
+    <main>
+        <div class="container">
+            <div class="info-extra">
+                <h3>{% trans "Fale conosco de forma rápida e prática!" %}</h3>
+                <p>{% trans "Se você tem alguma dúvida, sugestão ou apenas quer conversar sobre nossos serviços, nossa equipe está sempre pronta para te ouvir." %}</p>
+                <p>{% trans "Você pode nos enviar uma mensagem diretamente por e-mail, telefone ou WhatsApp. Também estamos ativos no Instagram, onde publicamos novidades e dicas sobre tecnologia e inovação." %}</p>
+                <p>{% trans "Nosso objetivo é oferecer um atendimento de qualidade, ágil e humano. Conecte-se conosco!" %}</p>
+            </div>
+
+            <div class="contato-info">
+                <h2>{% trans "Informações de Contato" %}</h2>
+                <p>📧 {% trans "E-mail" %}: codehubpy@yahoo.com</p>
+                <p>📞 {% trans "Telefone" %}: ....................</p>
+                <p>📍 {% trans "Endereço" %}: {% trans "...................." %}</p>
+                <p>📱 {% trans "WhatsApp" %}: ....................</p>
+                <p>🌐 {% trans "Instagram" %}: <a href="https://instagram.com/codehub_ao" target="_blank">@codehub_ao</a></p>
+
+                <p>{% trans "Nosso suporte está disponível de segunda a sexta-feira, das 8h às 18h. Entre em contato conosco para dúvidas, sugestões ou parcerias. Estamos aqui para ajudar!" %}</p>
+            </div>
+        </div>
+    </main>
+{% endblock %}
+
+{% block footer %}
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CodeHub | {% trans "Todos os direitos reservados." %}</p>
+        </div>
+    </footer>
+{% endblock %}

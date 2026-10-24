@@ -1,0 +1,38 @@
+{% extends "paginas/base.html" %}
+{% load i18n %}
+
+{% block title %}
+    <title>{% trans "Acerte o Número Secreto" %}</title>
+{% endblock %}
+
+{% block main %}
+<main class="container" style="text-align: center; padding: 30px;">
+    <h1 style="color: #4CAF50;">🎯 {% trans "Acerte o Número Secreto!" %}</h1>
+    <p>{% trans "Digite um número entre 1 e 100:" %}</p>
+    <input type="number" id="palpite" min="1" max="100" style="padding: 10px; font-size: 16px;">
+    <button onclick="verificarPalpite()" style="padding: 10px 20px; font-size: 16px; margin-left: 10px;">{% trans "Tentar" %}</button>
+
+    <div id="resultado" style="margin-top: 20px; font-size: 18px;"></div>
+
+    <script>
+        let numeroSecreto = Math.floor(Math.random() * 100) + 1;
+        let tentativas = 0;
+
+        function verificarPalpite() {
+            const palpite = parseInt(document.getElementById('palpite').value);
+            const resultado = document.getElementById('resultado');
+            tentativas++;
+
+            if (palpite === numeroSecreto) {
+                resultado.innerHTML = `🎉 {% trans "Parabéns! Você acertou em" %} ${tentativas} {% trans "tentativas. O número era" %} ${numeroSecreto}.`;
+            } else if (palpite < numeroSecreto) {
+                resultado.innerHTML = "🔼 {% trans 'Tente um número maior.' %}";
+            } else if (palpite > numeroSecreto) {
+                resultado.innerHTML = "🔽 {% trans 'Tente um número menor.' %}";
+            } else {
+                resultado.innerHTML = "❌ {% trans 'Valor inválido!' %}";
+            }
+        }
+    </script>
+</main>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends "paginas/base.html" %}
+{% load static i18n %}
+
+{% block title %}
+    <title>{% trans "Política de Cookies" %}</title>
+{% endblock %}
+
+{% block main %}
+<main>
+    <div class="container">
+        <h2>{% trans "Política de Cookies" %}</h2>
+        <p>{% trans "Este site utiliza cookies para melhorar a experiência do usuário e analisar o tráfego." %}</p>
+
+        <h3>{% trans "O que são cookies?" %}</h3>
+        <p>{% trans "Cookies são pequenos arquivos de texto armazenados no seu navegador quando você visita um site." %}</p>
+
+        <h3>{% trans "Por que usamos cookies?" %}</h3>
+        <ul>
+            <li>{% trans "Para lembrar suas preferências de idioma e sessão." %}</li>
+            <li>{% trans "Para fins analíticos, ajudando-nos a entender como os usuários interagem com o site." %}</li>
+            <li>{% trans "Para melhorar o desempenho e a funcionalidade do site." %}</li>
+        </ul>
+
+        <h3>{% trans "Como controlar os cookies?" %}</h3>
+        <p>{% trans "Você pode configurar seu navegador para recusar ou excluir cookies. No entanto, isso pode afetar algumas funcionalidades do site." %}</p>
+
+        <h3>{% trans "Cookies de terceiros" %}</h3>
+        <p>{% trans "Podemos utilizar serviços de terceiros que também usam cookies, como ferramentas de análise de tráfego." %}</p>
+
+        <p>{% trans "Ao continuar utilizando este site, você concorda com o uso de cookies conforme descrito nesta política." %}</p>
+    </div>
+</main>
+{% endblock %}

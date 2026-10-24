@@ -1,0 +1,86 @@
+{% extends 'paginas/base.html' %}
+{% load static i18n %}
+
+{% block title %}
+    <title>{% trans "Jogos Online" %}</title>
+{% endblock %}
+
+{% block main %}
+<main>
+  <div class="container">
+    <h2>🎮 {% trans "Jogos Online" %}</h2>
+
+    <p>{% trans "Na CodeHub, acreditamos no poder da tecnologia para proporcionar diversão, aprendizado e inovação. Nossos jogos online são projetados para entreter, estimular o raciocínio e promover experiências digitais únicas, diretamente do navegador." %}</p>
+
+    <p>{% trans "Além do entretenimento, desenvolvemos soluções web, mobile e desktop com linguagens como Python, Java, PHP e JavaScript, valorizando a ética, a inovação e o compromisso com a qualidade. Nossa missão é conectar pessoas e tecnologia de forma criativa e acessível." %}</p>
+
+    <p>{% trans "Jogue agora e descubra o que torna a CodeHub especial." %}</p>
+
+    <p>{% trans "Horário de atendimento: Todos os dias das 08h às 18h. Estamos disponíveis para suporte e novas ideias!" %}</p>
+
+    <div class="games-grid">
+      <!-- Jogo 1: Clique Rápido -->
+      <div class="game-card">
+        <a href="{% url 'click' %}">
+          <img src="{% static 'img/click.png' %}" alt="{% trans 'Clique Rápido' %}">
+          <h3>{% trans "Clique Rápido" %}</h3>
+        </a>
+      </div>
+
+      <!-- Jogo 2: Jogo da Adivinha -->
+      <div class="game-card">
+        <a href="{% url 'guess' %}">
+          <img src="{% static 'img/guess.png' %}" alt="{% trans 'Jogo da Adivinhação' %}">
+          <h3>{% trans "Jogo da Adivinha" %}</h3>
+        </a>
+      </div>
+
+      <!-- Jogo 3: Jogo da Memória -->
+      <div class="game-card">
+        <a href="{% url 'memory' %}">
+          <img src="{% static 'img/memory.png' %}" alt="{% trans 'Jogo da Memória' %}">
+          <h3>{% trans "Jogo da Memória" %}</h3>
+        </a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<style>
+  .games-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .game-card {
+    width: 200px;
+    background: #1c1c1c;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: transform 0.2s;
+  }
+
+  .game-card:hover {
+    transform: scale(1.05);
+  }
+
+  .game-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .game-card h3 {
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    margin: 0;
+  }
+</style>
+{% endblock %}

@@ -1,0 +1,72 @@
+{% extends 'paginas/base.html' %}
+{% load static i18n %}  {# Carrega suporte a tradução #}
+
+{% block title %}
+  <title>{% trans "Clique Rápido - Jogo" %}</title>
+{% endblock %}
+
+{% block main %}
+<main>
+  <div class="container">
+    <h2 style="text-align: center;">🎮 {% trans "Clique Rápido!" %}</h2>
+    <p style="text-align: center;">{% trans "Teste sua velocidade clicando no quadrado vermelho o mais rápido possível!" %}</p>
+
+    <div id="gameArea" style="
+      width: 300px;
+      height: 300px;
+      background: #222;
+      border: 2px solid #fff;
+      margin: 30px auto;
+      position: relative;
+    "></div>
+
+    <div id="score" style="
+      text-align: center;
+      font-size: 20px;
+      color: #00aaff;
+      font-weight: bold;
+    ">{% trans "Pontos" %}: 0</div>
+  </div>
+
+  <script>
+    const gameArea = document.getElementById('gameArea');
+    const scoreDisplay = document.getElementById('score');
+    let score = 0;
+
+    const target = document.createElement('div');
+    target.style.width = "40px";
+    target.style.height = "40px";
+    target.style.backgroundColor = "red";
+    target.style.borderRadius = "10px";
+    target.style.position = "absolute";
+    target.style.cursor = "pointer";
+
+    gameArea.appendChild(target);
+
+    function moveTarget() {
+      const x = Math.floor(Math.random() * (gameArea.clientWidth - 40));
+      const y = Math.floor(Math.random() * (gameArea.clientHeight - 40));
+      target.style.left = x + 'px';
+      target.style.top = y + 'px';
+    }
+
+    // ⚠️ Texto "Pontos" também precisa ser traduzido no JS
+    const pontosLabel = "{{ _('Pontos') }}";
+
+    target.addEventListener('click', () => {
+      score++;
+      scoreDisplay.textContent = `${pontosLabel}: ${score}`;
+
+      // Vibração (funciona em mobile compatível)
+      if ("vibrate" in navigator) {
+        navigator.vibrate(100); // 100ms
+      }
+
+      moveTarget();
+    });
+
+    moveTarget();
+    setInterval(moveTarget, 2000);
+  </script>
+</main>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Você pode incluir arquivos CSS aqui se quiser -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1 style="text-align:center;">Galeria</h1>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px;">
+        {% for item in itens %}
+            <div style="border: 1px solid #ddd; padding: 15px; width: 300px; border-radius: 10px;">
+                <h3>{{ item.titulo }}</h3>
+                <p>{{ item.descricao }}</p>
+                <img src="{{ item.imagem.url }}" alt="{{ item.titulo }}" style="width: 100%; border-radius: 5px;">
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
+

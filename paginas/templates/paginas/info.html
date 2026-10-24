@@ -1,0 +1,151 @@
+{% extends 'paginas/base.html' %}
+{% load static i18n %}
+
+{% block header %}
+<style>
+    .custom-header {
+        background-color: #1c1c1c;
+        color: white;
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .header-logo img {
+        height: 90px;
+        margin-bottom: 10px;
+    }
+
+    .header-title {
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .header-nav {
+        margin-top: 10px;
+    }
+
+    .header-nav a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .header-nav a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<header class="custom-header">
+    <div class="header-wrapper">
+        <div class="header-logo">
+            <img src="{% static 'img/logo.png' %}" alt="Logo">
+        </div>
+        <div class="header-title">
+            {% trans "Informações" %}
+        </div>
+        <div class="header-nav">
+            <a href="{% url 'index' %}">{% trans "Home" %}</a>
+        </div>
+    </div>
+</header>
+{% endblock %}
+
+{% block main %}
+<style>
+    .galeria-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 30px;
+    }
+
+    .item {
+        background: #fff;
+        border: 1px solid #ccc;
+        padding: 20px;
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: transform 0.2s;
+        text-align: center;
+    }
+
+    .item:hover {
+        transform: scale(1.02);
+    }
+
+    .item img {
+        width: 100%;
+        height: 250px;
+        object-fit: contain;
+        border-radius: 8px;
+        background-color: #eee;
+    }
+
+    .item h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .descricao {
+        max-width: 600px;
+        background: #fff;
+        padding: 20px;
+        margin-top: -10px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        color: #444;
+        font-size: 16px;
+    }
+
+    @media (max-width: 600px) {
+        .item {
+            width: 90%;
+        }
+
+        .descricao {
+            width: 90%;
+        }
+
+        .header-wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header-title {
+            margin: 10px 0;
+        }
+
+        .header-nav {
+            margin-top: 10px;
+        }
+    }
+</style>
+
+<div class="galeria-container">
+    {% for item in itens %}
+        <div class="item">
+            <h3>{{ item.titulo }}</h3>
+            <img src="{{ item.imagem.url }}" alt="{{ item.titulo }}">
+        </div>
+        <div class="descricao">
+            <p>{{ item.descricao|linebreaksbr }}</p>
+        </div>
+    {% empty %}
+        <p>{% trans "Nenhuma notícia cadastrada no momento." %}</p>
+    {% endfor %}
+</div>
+{% endblock %}
