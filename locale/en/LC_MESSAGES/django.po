@@ -1,0 +1,1157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-01 23:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: paginas/templates/paginas/base.html:9
+msgid "CodeHub - Inovação Digital com Josemar Neves"
+msgstr "CodeHub - Digital Innovation with Josemar Neves"
+
+#: paginas/templates/paginas/base.html:12
+msgid ""
+"CodeHub é uma plataforma criada por Josemar Neves para ensinar programação, "
+"criar sites e oferecer soluções digitais com Python, Django, Java e mais."
+msgstr ""
+"CodeHub is a platform created by Josemar Neves to teach programming, build "
+"websites, and offer digital solutions with Python, Django, Java, and more."
+
+#: paginas/templates/paginas/base.html:13
+msgid ""
+"Brasil, CodiHub, Programação, Python, Django, Java, Desenvolvimento Web, "
+"Criar Site, CodeHub Angola, CodeHub Brasil, CodeHub Portugal, CodiHub "
+"Estados Unidos, Design Gráfico, Site CodiHub, CodeHub Django, Josemar Neves, "
+"HTML, CSS, JavaScript, Aplicativos, Web Design, Tecnologia, Projetos Web, "
+"Inovação Digital, Freelancer Web, Frontend, Backend, Software, Criar "
+"Aplicativos, Aprender Programar, Criar seu site, Jogos Online, Marketing "
+"Digital"
+msgstr ""
+"Brazil, CodiHub, Programming, Python, Django, Java, Web Development, Website "
+"Creation, CodeHub Angola, CodeHub Brazil, CodeHub Portugal, CodiHub United "
+"States, Graphic Design, CodiHub Website, CodeHub Django, Josemar Neves, "
+"HTML, CSS, JavaScript, Apps, Web Design, Technology, Web Projects, Digital "
+"Innovation, Web Freelancer, Frontend, Backend, Software, App Development, "
+"Learn Programming, Build Your Website, Online Games, Digital Marketing"
+
+#: paginas/templates/paginas/base.html:18
+msgid "CodiHub - Soluções Digitais com Josemar Neves"
+msgstr "CodiHub - Digital Solutions with Josemar Neves"
+
+#: paginas/templates/paginas/base.html:19
+msgid ""
+"Aprenda a programar com Python, Django, Java e crie seus próprios sites com "
+"a CodiHub."
+msgstr ""
+"Learn to program with Python, Django, Java and build your own websites with "
+"CodiHub."
+
+#: paginas/templates/paginas/base.html:26
+msgid "CodiHub - Programação com Josemar Neves"
+msgstr "CodiHub - Programming with Josemar Neves"
+
+#: paginas/templates/paginas/base.html:27
+msgid ""
+"Plataforma para aprender programação, criar sites e muito mais com Python, "
+"Django e Java."
+msgstr ""
+"Platform to learn programming, build websites, and more with Python, Django, "
+"and Java."
+
+#: paginas/templates/paginas/base.html:45
+#: paginas/templates/paginas/index.html:10
+#: paginas/templates/paginas/sobre.html:63
+msgid "Bem-vindo à CodeHub!"
+msgstr "Welcome to CodeHub!"
+
+#: paginas/templates/paginas/base.html:52
+#: paginas/templates/paginas/contacto.html:106
+#: paginas/templates/paginas/info.html:58
+#: paginas/templates/paginas/servicos.html:109
+#: paginas/templates/paginas/sobre.html:69
+#: paginas/templates/paginas/sobre.html:154
+msgid "Home"
+msgstr "Home"
+
+#: paginas/templates/paginas/base.html:53
+#: paginas/templates/paginas/base.html:102
+#: paginas/templates/paginas/contacto.html:107
+#: paginas/templates/paginas/servicos.html:110
+#: paginas/templates/paginas/sobre.html:5
+#: paginas/templates/paginas/sobre.html:70
+msgid "Sobre"
+msgstr "About"
+
+#: paginas/templates/paginas/base.html:54
+#: paginas/templates/paginas/contacto.html:108
+#: paginas/templates/paginas/servicos.html:111
+#: paginas/templates/paginas/sobre.html:71
+msgid "Serviços"
+msgstr "Services"
+
+#: paginas/templates/paginas/base.html:55
+#: paginas/templates/paginas/contacto.html:5
+#: paginas/templates/paginas/contacto.html:109
+#: paginas/templates/paginas/privacidade.html:30
+#: paginas/templates/paginas/servicos.html:112
+#: paginas/templates/paginas/sobre.html:72
+#: paginas/templates/paginas/termos.html:25
+msgid "Contato"
+msgstr "Contact"
+
+#: paginas/templates/paginas/base.html:56
+#: paginas/templates/paginas/contacto.html:110
+#: paginas/templates/paginas/info.html:55
+#: paginas/templates/paginas/servicos.html:113
+#: paginas/templates/paginas/sobre.html:73
+msgid "Informações"
+msgstr "Information"
+
+#: paginas/templates/paginas/base.html:57
+msgid "Jogos"
+msgstr "Games"
+
+#: paginas/templates/paginas/base.html:58
+msgid "Feedback"
+msgstr "Feedback"
+
+#: paginas/templates/paginas/base.html:67
+msgid ""
+"Este site usa cookies para melhorar a sua experiência. Ao continuar "
+"navegando, você concorda com nossa"
+msgstr ""
+"This site uses cookies to improve your experience. By continuing to browse, "
+"you agree to our"
+
+#: paginas/templates/paginas/base.html:68
+#: paginas/templates/paginas/base.html:104
+#: paginas/templates/paginas/privacidade.html:11
+#: paginas/templates/paginas/termos.html:21
+msgid "Política de Privacidade"
+msgstr "Privacy Policy"
+
+#: paginas/templates/paginas/base.html:71
+msgid "Aceitar"
+msgstr "Accept"
+
+#: paginas/templates/paginas/base.html:91
+msgid "Conteúdo principal aqui"
+msgstr "Main content here"
+
+#: paginas/templates/paginas/base.html:99
+#: paginas/templates/paginas/contacto.html:145
+#: paginas/templates/paginas/servicos.html:165
+#: paginas/templates/paginas/sobre.html:151
+msgid "Todos os direitos reservados."
+msgstr "All rights reserved."
+
+#: paginas/templates/paginas/base.html:103
+#: paginas/templates/paginas/termos.html:11
+msgid "Termos de Uso"
+msgstr "Terms of Use"
+
+#: paginas/templates/paginas/base.html:105
+#: paginas/templates/paginas/cookies.html:5
+#: paginas/templates/paginas/cookies.html:11
+msgid "Política de Cookies"
+msgstr "Cookie Policy"
+
+#: paginas/templates/paginas/click.html:5
+msgid "Clique Rápido - Jogo"
+msgstr "Quick Click - Game"
+
+#: paginas/templates/paginas/click.html:11
+msgid "Clique Rápido!"
+msgstr "Quick Click!"
+
+#: paginas/templates/paginas/click.html:12
+msgid ""
+"Teste sua velocidade clicando no quadrado vermelho o mais rápido possível!"
+msgstr "Test your speed by clicking the red square as fast as possible!"
+
+#: paginas/templates/paginas/click.html:28
+#: paginas/templates/paginas/click.html:54
+msgid "Pontos"
+msgstr "Points"
+
+#: paginas/templates/paginas/contacto.html:103
+msgid "Entre em Contato"
+msgstr "Contact Us"
+
+#: paginas/templates/paginas/contacto.html:122
+msgid "Fale conosco de forma rápida e prática!"
+msgstr "Contact us quickly and easily!"
+
+#: paginas/templates/paginas/contacto.html:123
+msgid ""
+"Se você tem alguma dúvida, sugestão ou apenas quer conversar sobre nossos "
+"serviços, nossa equipe está sempre pronta para te ouvir."
+msgstr ""
+"If you have any questions, suggestions, or just want to talk about our "
+"services, our team is always ready to listen."
+
+#: paginas/templates/paginas/contacto.html:124
+msgid ""
+"Você pode nos enviar uma mensagem diretamente por e-mail, telefone ou "
+"WhatsApp. Também estamos ativos no Instagram, onde publicamos novidades e "
+"dicas sobre tecnologia e inovação."
+msgstr ""
+"You can contact us directly via email, phone, or WhatsApp. We're also active "
+"on Instagram, where we post news and tips about technology and innovation."
+
+#: paginas/templates/paginas/contacto.html:125
+msgid ""
+"Nosso objetivo é oferecer um atendimento de qualidade, ágil e humano. "
+"Conecte-se conosco!"
+msgstr ""
+"Our goal is to provide quality, fast, and human service. Connect with us!"
+
+#: paginas/templates/paginas/contacto.html:129
+msgid "Informações de Contato"
+msgstr "Contact Information"
+
+#: paginas/templates/paginas/contacto.html:130
+msgid "E-mail"
+msgstr "Email"
+
+#: paginas/templates/paginas/contacto.html:131
+msgid "Telefone"
+msgstr "Phone"
+
+#: paginas/templates/paginas/contacto.html:132
+msgid "Endereço"
+msgstr "Address"
+
+#: paginas/templates/paginas/contacto.html:132
+msgid "...................."
+msgstr "...................."
+
+#: paginas/templates/paginas/contacto.html:133
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: paginas/templates/paginas/contacto.html:134
+msgid "Instagram"
+msgstr "Instagram"
+
+#: paginas/templates/paginas/contacto.html:136
+msgid ""
+"Nosso suporte está disponível de segunda a sexta-feira, das 8h às 18h. Entre "
+"em contato conosco para dúvidas, sugestões ou parcerias. Estamos aqui para "
+"ajudar!"
+msgstr ""
+"Our support is available Monday through Friday, from 8am to 6pm. Contact us "
+"for questions, suggestions, or partnerships. We're here to help!"
+
+#: paginas/templates/paginas/cookies.html:12
+msgid ""
+"Este site utiliza cookies para melhorar a experiência do usuário e analisar "
+"o tráfego."
+msgstr "This site uses cookies to improve user experience and analyze traffic."
+
+#: paginas/templates/paginas/cookies.html:14
+msgid "O que são cookies?"
+msgstr "What are cookies?"
+
+#: paginas/templates/paginas/cookies.html:15
+msgid ""
+"Cookies são pequenos arquivos de texto armazenados no seu navegador quando "
+"você visita um site."
+msgstr ""
+"Cookies are small text files stored in your browser when you visit a website."
+
+#: paginas/templates/paginas/cookies.html:17
+msgid "Por que usamos cookies?"
+msgstr "Why do we use cookies?"
+
+#: paginas/templates/paginas/cookies.html:19
+msgid "Para lembrar suas preferências de idioma e sessão."
+msgstr "To remember your language preferences and session."
+
+#: paginas/templates/paginas/cookies.html:20
+msgid ""
+"Para fins analíticos, ajudando-nos a entender como os usuários interagem com "
+"o site."
+msgstr ""
+"For analytical purposes, helping us understand how users interact with the "
+"site."
+
+#: paginas/templates/paginas/cookies.html:21
+msgid "Para melhorar o desempenho e a funcionalidade do site."
+msgstr "To improve site performance and functionality."
+
+#: paginas/templates/paginas/cookies.html:24
+msgid "Como controlar os cookies?"
+msgstr "How to control cookies?"
+
+#: paginas/templates/paginas/cookies.html:25
+msgid ""
+"Você pode configurar seu navegador para recusar ou excluir cookies. No "
+"entanto, isso pode afetar algumas funcionalidades do site."
+msgstr ""
+"You can configure your browser to refuse or delete cookies. However, this "
+"may affect some site features."
+
+#: paginas/templates/paginas/cookies.html:27
+msgid "Cookies de terceiros"
+msgstr "Third-party cookies"
+
+#: paginas/templates/paginas/cookies.html:28
+msgid ""
+"Podemos utilizar serviços de terceiros que também usam cookies, como "
+"ferramentas de análise de tráfego."
+msgstr ""
+"We may use third-party services that also use cookies, such as traffic "
+"analysis tools."
+
+#: paginas/templates/paginas/cookies.html:30
+msgid ""
+"Ao continuar utilizando este site, você concorda com o uso de cookies "
+"conforme descrito nesta política."
+msgstr ""
+"By continuing to use this site, you agree to the use of cookies as described "
+"in this policy."
+
+#: paginas/templates/paginas/feedback.html:85
+msgid "Envie seu Feedback"
+msgstr "Send Your Feedback"
+
+#: paginas/templates/paginas/feedback.html:88
+msgid ""
+"Na CodeHub, valorizamos profundamente a opinião de cada usuário. Nosso "
+"objetivo é construir soluções digitais inovadoras e centradas nas pessoas. "
+"Seu feedback nos ajuda a evoluir, corrigir falhas e fortalecer ainda mais "
+"nosso compromisso com a ética, inovação e excelência."
+msgstr ""
+"At CodeHub, we deeply value each user's opinion. Our goal is to build "
+"innovative, people-centered digital solutions. Your feedback helps us "
+"improve, fix issues, and strengthen our commitment to ethics, innovation, "
+"and excellence."
+
+#: paginas/templates/paginas/feedback.html:89
+msgid ""
+"Acreditamos em uma tecnologia que aproxima, educa e transforma vidas. Esta "
+"página foi criada para ser um canal aberto e transparente."
+msgstr ""
+"We believe in technology that connects, educates, and transforms lives. This "
+"page was created as an open and transparent channel."
+
+#: paginas/templates/paginas/feedback.html:93
+msgid ""
+"Queremos saber como podemos melhorar, quais funcionalidades você gostaria de "
+"ver em nossos sistemas web, mobile ou desktop, e como você avalia nossos "
+"serviços baseados em tecnologias como Python, PHP, Java, JavaScript e "
+"frameworks modernos. Sua contribuição é essencial para que possamos seguir "
+"crescendo com responsabilidade e propósito."
+msgstr ""
+"We want to know how we can improve, what features you'd like to see in our "
+"web, mobile, or desktop systems, and how you rate our services based on "
+"technologies like Python, PHP, Java, JavaScript, and modern frameworks. Your "
+"input is essential for us to continue growing responsibly and purposefully."
+
+#: paginas/templates/paginas/feedback.html:97
+msgid "Obrigado pelo seu feedback!"
+msgstr "Thank you for your feedback!"
+
+#: paginas/templates/paginas/feedback.html:99
+msgid "Ocorreu um erro ao enviar. Tente novamente."
+msgstr "An error occurred while sending. Please try again."
+
+#: paginas/templates/paginas/feedback.html:105
+msgid "Nome"
+msgstr "Name"
+
+#: paginas/templates/paginas/feedback.html:108
+msgid "Email"
+msgstr "Email"
+
+#: paginas/templates/paginas/feedback.html:111
+msgid "Mensagem"
+msgstr "Message"
+
+#: paginas/templates/paginas/feedback.html:114
+msgid "Enviar Feedback"
+msgstr "Send Feedback"
+
+#: paginas/templates/paginas/guess.html:5
+msgid "Acerte o Número Secreto"
+msgstr "Guess the Secret Number"
+
+#: paginas/templates/paginas/guess.html:10
+msgid "Acerte o Número Secreto!"
+msgstr "Guess the Secret Number!"
+
+#: paginas/templates/paginas/guess.html:11
+msgid "Digite um número entre 1 e 100:"
+msgstr "Enter a number between 1 and 100:"
+
+#: paginas/templates/paginas/guess.html:13
+msgid "Tentar"
+msgstr "Try"
+
+#: paginas/templates/paginas/guess.html:27
+msgid "Parabéns! Você acertou em"
+msgstr "Congratulations! You guessed it in"
+
+#: paginas/templates/paginas/guess.html:27
+msgid "tentativas. O número era"
+msgstr "attempts. The number was"
+
+#: paginas/templates/paginas/guess.html:29
+msgid "Tente um número maior."
+msgstr "Try a higher number."
+
+#: paginas/templates/paginas/guess.html:31
+msgid "Tente um número menor."
+msgstr "Try a lower number."
+
+#: paginas/templates/paginas/guess.html:33
+msgid "Valor inválido!"
+msgstr "Invalid value!"
+
+#: paginas/templates/paginas/index.html:11
+msgid ""
+"A CodeHub é um espaço digital criado para conectar mentes criativas, "
+"entusiastas da tecnologia e empreendedores que desejam transformar ideias em "
+"realidade. Nosso objetivo é democratizar o acesso ao conhecimento em "
+"desenvolvimento web, design, aplicativos e soluções tecnológicas."
+msgstr ""
+"CodeHub is a digital space created to connect creative minds, technology "
+"enthusiasts, and entrepreneurs who want to turn ideas into reality. Our goal "
+"is to democratize access to knowledge in web development, design, "
+"applications, and tech solutions."
+
+#: paginas/templates/paginas/index.html:13
+msgid ""
+"Na CodeHub, você encontra conteúdo educativo, serviços personalizados e uma "
+"comunidade comprometida com a inovação e a transformação digital. Aqui, "
+"acreditamos que tecnologia deve ser acessível a todos — não importa onde "
+"você esteja."
+msgstr ""
+"At CodeHub, you'll find educational content, personalized services, and a "
+"community committed to innovation and digital transformation. Here, we "
+"believe technology should be accessible to everyone — no matter where you "
+"are."
+
+#: paginas/templates/paginas/index.html:15
+msgid ""
+"Explore nosso site, conheça nossos serviços e venha construir o futuro com a "
+"gente."
+msgstr ""
+"Explore our website, discover our services, and come build the future with "
+"us."
+
+#: paginas/templates/paginas/index.html:17
+msgid "Saiba Mais"
+msgstr "Learn More"
+
+#: paginas/templates/paginas/index.html:23
+msgid "Design Gráfico"
+msgstr "Graphic Design"
+
+#: paginas/templates/paginas/index.html:24
+msgid "Oferecemos designs modernos e atrativos para sua marca."
+msgstr "We offer modern and attractive designs for your brand."
+
+#: paginas/templates/paginas/index.html:27
+#: paginas/templates/paginas/servicos.html:139
+msgid "Desenvolvimento Web"
+msgstr "Web Development"
+
+#: paginas/templates/paginas/index.html:28
+msgid "Criamos sites e sistemas personalizados para seu negócio."
+msgstr "We create custom websites and systems for your business."
+
+#: paginas/templates/paginas/index.html:31
+msgid "Desenvolvimento Mobile e Desktop"
+msgstr "Mobile and Desktop Development"
+
+#: paginas/templates/paginas/index.html:32
+msgid "Aplicativos para celular e programas para computador sob medida."
+msgstr "Custom mobile apps and desktop programs."
+
+#: paginas/templates/paginas/index.html:38
+#: paginas/templates/paginas/sobre.html:90
+msgid "Nossa Missão"
+msgstr "Our Mission"
+
+#: paginas/templates/paginas/index.html:39
+msgid ""
+"A CodeHub nasceu de um desejo simples, porém poderoso: tornar a tecnologia "
+"acessível, funcional e transformadora para todas as pessoas, "
+"independentemente de sua origem, renda ou localização geográfica. Em um "
+"mundo cada vez mais digital, percebemos que muitas comunidades, "
+"profissionais e até pequenas empresas estavam sendo deixadas para trás. Foi "
+"com esse espírito de inclusão, inovação e responsabilidade que fundamos a "
+"CodeHub."
+msgstr ""
+"CodeHub was born from a simple yet powerful desire: to make technology "
+"accessible, functional, and transformative for all people, regardless of "
+"their background, income, or geographic location. In an increasingly digital "
+"world, we noticed that many communities, professionals, and even small "
+"businesses were being left behind. It was with this spirit of inclusion, "
+"innovation, and responsibility that we founded CodeHub."
+
+#: paginas/templates/paginas/index.html:41
+msgid ""
+"Nossa missão é promover o desenvolvimento humano e social por meio da "
+"tecnologia. Acreditamos que cada linha de código escrita deve ter um "
+"propósito claro: melhorar a vida de alguém. Seja um site para um pequeno "
+"negócio, um sistema para uma escola, ou um aplicativo para facilitar o dia a "
+"dia de uma comunidade, cada projeto é uma oportunidade de gerar impacto "
+"positivo."
+msgstr ""
+"Our mission is to promote human and social development through technology. "
+"We believe every line of code written should have a clear purpose: to "
+"improve someone's life. Whether it's a website for a small business, a "
+"system for a school, or an app to facilitate a community's daily life, each "
+"project is an opportunity to create positive impact."
+
+#: paginas/templates/paginas/index.html:43
+msgid ""
+"A ética é um pilar fundamental em tudo o que fazemos. Atuamos com total "
+"transparência, respeitando a privacidade dos usuários, os princípios de "
+"acessibilidade digital e a diversidade cultural. Nosso compromisso vai além "
+"de entregar um bom serviço: buscamos criar relações duradouras baseadas na "
+"confiança, no respeito mútuo e no crescimento conjunto."
+msgstr ""
+"Ethics is a fundamental pillar in everything we do. We operate with complete "
+"transparency, respecting user privacy, digital accessibility principles, and "
+"cultural diversity. Our commitment goes beyond providing good service: we "
+"seek to create lasting relationships based on trust, mutual respect, and "
+"joint growth."
+
+#: paginas/templates/paginas/index.html:45
+msgid ""
+"A CodeHub representa um novo modelo de empresa digital, onde o lucro e o "
+"propósito caminham juntos. Valorizamos a honestidade, o trabalho em equipe e "
+"a vontade de aprender constantemente. Para nós, a tecnologia não é um fim, "
+"mas um meio para criar oportunidades, abrir portas e dar voz a quem antes "
+"não era ouvido."
+msgstr ""
+"CodeHub represents a new model of digital company, where profit and purpose "
+"go hand in hand. We value honesty, teamwork, and the willingness to "
+"constantly learn. For us, technology is not an end, but a means to create "
+"opportunities, open doors, and give voice to those who weren't heard before."
+
+#: paginas/templates/paginas/index.html:47
+msgid ""
+"Criamos a CodeHub porque acreditamos que o futuro não pertence apenas aos "
+"grandes players da tecnologia, mas também aos pequenos criadores, sonhadores "
+"e empreendedores locais. Por isso, oferecemos soluções sob medida com preços "
+"acessíveis, sem abrir mão da qualidade, da segurança e da escalabilidade."
+msgstr ""
+"We created CodeHub because we believe the future belongs not only to big "
+"tech players but also to small creators, dreamers, and local entrepreneurs. "
+"That's why we offer customized solutions at affordable prices without "
+"compromising quality, security, or scalability."
+
+#: paginas/templates/paginas/index.html:49
+msgid ""
+"Estamos comprometidos com a transformação digital em Angola, em África e no "
+"mundo. Queremos inspirar a nova geração de desenvolvedores, designers e "
+"empreendedores. Nossa plataforma é mais do que uma vitrine de serviços — é "
+"um ecossistema vivo de aprendizado, criação e colaboração."
+msgstr ""
+"We are committed to digital transformation in Angola, Africa, and the world. "
+"We want to inspire the new generation of developers, designers, and "
+"entrepreneurs. Our platform is more than a service showcase — it's a living "
+"ecosystem of learning, creation, and collaboration."
+
+#: paginas/templates/paginas/index.html:51
+msgid ""
+"Na prática, isso se traduz no uso de tecnologias modernas e acessíveis. "
+"Desenvolvemos soluções utilizando linguagens como Python, Java, JavaScript, "
+"PHP e frameworks como Django, React, Flutter e Laravel. Atendemos demandas "
+"tanto para web quanto para mobile e desktop, adaptando nossas ferramentas às "
+"necessidades reais de cada projeto."
+msgstr ""
+"In practice, this translates to using modern and accessible technologies. We "
+"develop solutions using languages like Python, Java, JavaScript, PHP and "
+"frameworks like Django, React, Flutter, and Laravel. We serve demands for "
+"both web and mobile/desktop, adapting our tools to each project's real needs."
+
+#: paginas/templates/paginas/index.html:53
+msgid ""
+"Seja você um cliente, parceiro ou colaborador, saiba que ao se conectar com "
+"a CodeHub, você está se unindo a uma empresa que acredita no poder da "
+"tecnologia para transformar o presente e construir um futuro melhor, mais "
+"justo e mais digital."
+msgstr ""
+"Whether you're a client, partner, or collaborator, know that by connecting "
+"with CodeHub, you're joining a company that believes in technology's power "
+"to transform the present and build a better, fairer, and more digital future."
+
+#: paginas/templates/paginas/info.html:148
+msgid "Nenhuma notícia cadastrada no momento."
+msgstr "No news registered at this time."
+
+#: paginas/templates/paginas/jogos.html:5
+#: paginas/templates/paginas/jogos.html:11
+msgid "Jogos Online"
+msgstr "Online Games"
+
+#: paginas/templates/paginas/jogos.html:13
+msgid ""
+"Na CodeHub, acreditamos no poder da tecnologia para proporcionar diversão, "
+"aprendizado e inovação. Nossos jogos online são projetados para entreter, "
+"estimular o raciocínio e promover experiências digitais únicas, diretamente "
+"do navegador."
+msgstr ""
+"At CodeHub, we believe in technology's power to provide fun, learning, and "
+"innovation. Our online games are designed to entertain, stimulate reasoning, "
+"and promote unique digital experiences, directly from your browser."
+
+#: paginas/templates/paginas/jogos.html:15
+msgid ""
+"Além do entretenimento, desenvolvemos soluções web, mobile e desktop com "
+"linguagens como Python, Java, PHP e JavaScript, valorizando a ética, a "
+"inovação e o compromisso com a qualidade. Nossa missão é conectar pessoas e "
+"tecnologia de forma criativa e acessível."
+msgstr ""
+"Beyond entertainment, we develop web, mobile, and desktop solutions using "
+"languages like Python, Java, PHP, and JavaScript, valuing ethics, "
+"innovation, and commitment to quality. Our mission is to connect people and "
+"technology in creative and accessible ways."
+
+#: paginas/templates/paginas/jogos.html:17
+msgid "Jogue agora e descubra o que torna a CodeHub especial."
+msgstr "Play now and discover what makes CodeHub special."
+
+#: paginas/templates/paginas/jogos.html:19
+msgid ""
+"Horário de atendimento: Todos os dias das 08h às 18h. Estamos disponíveis "
+"para suporte e novas ideias!"
+msgstr ""
+"Service hours: Every day from 8am to 6pm. We're available for support and "
+"new ideas!"
+
+#: paginas/templates/paginas/jogos.html:25
+#: paginas/templates/paginas/jogos.html:26
+msgid "Clique Rápido"
+msgstr "Quick Click"
+
+#: paginas/templates/paginas/jogos.html:33
+msgid "Jogo da Adivinhação"
+msgstr "Guessing Game"
+
+#: paginas/templates/paginas/jogos.html:34
+msgid "Jogo da Adivinha"
+msgstr "Number Guessing"
+
+#: paginas/templates/paginas/jogos.html:41
+#: paginas/templates/paginas/jogos.html:42
+#: paginas/templates/paginas/memory.html:113
+msgid "Jogo da Memória"
+msgstr "Memory Game"
+
+#: paginas/templates/paginas/memory.html:5
+msgid "Jogo da Memória - CodeHub"
+msgstr "Memory Game - CodeHub"
+
+#: paginas/templates/paginas/memory.html:117
+msgid "Reiniciar"
+msgstr "Restart"
+
+#: paginas/templates/paginas/memory.html:118
+msgid "Jogar Novamente"
+msgstr "Play Again"
+
+#: paginas/templates/paginas/memory.html:165
+msgid "Você venceu!"
+msgstr "You won!"
+
+#: paginas/templates/paginas/privacidade.html:5
+msgid "Privacidade"
+msgstr "Privacy"
+
+#: paginas/templates/paginas/privacidade.html:12
+msgid ""
+"Este site respeita sua privacidade. Nenhuma informação pessoal é coletada "
+"sem o seu consentimento."
+msgstr ""
+"This site respects your privacy. No personal information is collected "
+"without your consent."
+
+#: paginas/templates/paginas/privacidade.html:13
+msgid "Não vendemos ou compartilhamos informações pessoais com terceiros."
+msgstr "We do not sell or share personal information with third parties."
+
+#: paginas/templates/paginas/privacidade.html:14
+msgid "Ao continuar navegando, você concorda com o uso de cookies."
+msgstr "By continuing to browse, you agree to the use of cookies."
+
+#: paginas/templates/paginas/privacidade.html:16
+msgid "Coleta de Informações"
+msgstr "Information Collection"
+
+#: paginas/templates/paginas/privacidade.html:17
+msgid ""
+"As informações coletadas de forma automática incluem dados como tipo de "
+"navegador, idioma preferido, páginas acessadas e tempo de visita."
+msgstr ""
+"Automatically collected information includes data such as browser type, "
+"preferred language, pages visited, and visit duration."
+
+#: paginas/templates/paginas/privacidade.html:18
+msgid ""
+"Essas informações são usadas exclusivamente para entender como os visitantes "
+"utilizam o site e melhorar a experiência do usuário."
+msgstr ""
+"This information is used exclusively to understand how visitors use the site "
+"and improve user experience."
+
+#: paginas/templates/paginas/privacidade.html:20
+msgid "Segurança"
+msgstr "Security"
+
+#: paginas/templates/paginas/privacidade.html:21
+msgid ""
+"Adotamos medidas técnicas e organizacionais para proteger seus dados contra "
+"acesso não autorizado, perda ou destruição."
+msgstr ""
+"We implement technical and organizational measures to protect your data "
+"against unauthorized access, loss, or destruction."
+
+#: paginas/templates/paginas/privacidade.html:23
+msgid "Cookies"
+msgstr "Cookies"
+
+#: paginas/templates/paginas/privacidade.html:24
+msgid ""
+"Cookies são pequenos arquivos armazenados no seu dispositivo para ajudar a "
+"lembrar suas preferências e melhorar a navegação."
+msgstr ""
+"Cookies are small files stored on your device to help remember your "
+"preferences and improve navigation."
+
+#: paginas/templates/paginas/privacidade.html:25
+msgid ""
+"Você pode desativar os cookies nas configurações do seu navegador, mas isso "
+"pode afetar o funcionamento de algumas partes do site."
+msgstr ""
+"You can disable cookies in your browser settings, but this may affect the "
+"functionality of some parts of the site."
+
+#: paginas/templates/paginas/privacidade.html:27
+msgid "Alterações na Política"
+msgstr "Policy Changes"
+
+#: paginas/templates/paginas/privacidade.html:28
+msgid ""
+"Reservamo-nos o direito de modificar esta Política de Privacidade a qualquer "
+"momento. As alterações entrarão em vigor imediatamente após a publicação."
+msgstr ""
+"We reserve the right to modify this Privacy Policy at any time. Changes will "
+"take effect immediately upon publication."
+
+#: paginas/templates/paginas/privacidade.html:31
+msgid ""
+"Se você tiver dúvidas sobre esta política, entre em contato conosco pela "
+"seção de contato do site."
+msgstr ""
+"If you have questions about this policy, contact us through the contact "
+"section of the website."
+
+#: paginas/templates/paginas/servicos.html:5
+msgid "Solicitar Serviço"
+msgstr "Request Service"
+
+#: paginas/templates/paginas/servicos.html:103
+msgid "Solicitar um Serviço"
+msgstr "Request a Service"
+
+#: paginas/templates/paginas/servicos.html:122
+msgid "Preencha o formulário"
+msgstr "Fill out the form"
+
+#: paginas/templates/paginas/servicos.html:124
+msgid ""
+"Na CodeHub, acreditamos que a inovação digital começa com a compreensão das "
+"necessidades reais dos nossos clientes. Nossa missão é transformar ideias em "
+"soluções tecnológicas eficazes, acessíveis e impactantes para empresas, "
+"estudantes e profissionais."
+msgstr ""
+"At CodeHub, we believe digital innovation begins with understanding our "
+"clients' real needs. Our mission is to transform ideas into effective, "
+"accessible, and impactful technological solutions for businesses, students, "
+"and professionals."
+
+#: paginas/templates/paginas/servicos.html:126
+msgid ""
+"Solicitar um serviço conosco é o primeiro passo para tirar seu projeto do "
+"papel. Nossa equipe está preparada para atender demandas como "
+"desenvolvimento web, aplicativos móveis e softwares desktop, sempre "
+"respeitando princípios de ética, transparência e comprometimento."
+msgstr ""
+"Requesting a service with us is the first step to bringing your project to "
+"life. Our team is ready to handle demands like web development, mobile apps, "
+"and desktop software, always respecting principles of ethics, transparency, "
+"and commitment."
+
+#: paginas/templates/paginas/servicos.html:128
+msgid ""
+"Criamos a CodeHub para facilitar o acesso à tecnologia em países onde o "
+"desenvolvimento digital ainda é um desafio. Entendemos que a transformação "
+"começa com pequenas ações, por isso valorizamos cada cliente, independente "
+"do tamanho do projeto."
+msgstr ""
+"We created CodeHub to facilitate access to technology in countries where "
+"digital development is still a challenge. We understand that transformation "
+"begins with small actions, which is why we value every client, regardless of "
+"project size."
+
+#: paginas/templates/paginas/servicos.html:130
+msgid ""
+"A ética é o alicerce de tudo que fazemos. Valorizamos o respeito, a "
+"honestidade e a confidencialidade em todas as etapas do processo. Nosso "
+"compromisso é com resultados de qualidade e com a satisfação total de quem "
+"confia em nós."
+msgstr ""
+"Ethics is the foundation of everything we do. We value respect, honesty, and "
+"confidentiality at all stages of the process. Our commitment is to quality "
+"results and the complete satisfaction of those who trust us."
+
+#: paginas/templates/paginas/servicos.html:132
+msgid ""
+"Preencha o formulário abaixo com os detalhes do serviço desejado. Assim que "
+"recebermos sua solicitação, entraremos em contato o mais breve possível para "
+"alinhar expectativas e dar início à construção da sua ideia."
+msgstr ""
+"Fill out the form below with details of the desired service. Once we receive "
+"your request, we'll contact you as soon as possible to align expectations "
+"and begin building your idea."
+
+#: paginas/templates/paginas/servicos.html:136
+msgid "Tipo de Serviço:"
+msgstr "Service Type:"
+
+#: paginas/templates/paginas/servicos.html:138
+msgid "Selecione..."
+msgstr "Select..."
+
+#: paginas/templates/paginas/servicos.html:140
+msgid "Aplicativo Mobile"
+msgstr "Mobile App"
+
+#: paginas/templates/paginas/servicos.html:141
+msgid "Software Desktop"
+msgstr "Desktop Software"
+
+#: paginas/templates/paginas/servicos.html:144
+msgid "Seu E-mail:"
+msgstr "Your Email:"
+
+#: paginas/templates/paginas/servicos.html:147
+msgid "Descrição do Projeto:"
+msgstr "Project Description:"
+
+#: paginas/templates/paginas/servicos.html:150
+msgid "Enviar Pedido"
+msgstr "Submit Request"
+
+#: paginas/templates/paginas/servicos.html:154
+msgid "Pedido enviado com sucesso!"
+msgstr "Request sent successfully!"
+
+#: paginas/templates/paginas/servicos.html:156
+msgid "Erro ao enviar pedido. Tente novamente mais tarde."
+msgstr "Error sending request. Please try again later."
+
+#: paginas/templates/paginas/sobre.html:84
+msgid "Quem Somos?"
+msgstr "Who We Are?"
+
+#: paginas/templates/paginas/sobre.html:85
+msgid ""
+"Somos uma empresa inovadora, focada em proporcionar as melhores soluções "
+"tecnológicas para nossos clientes. Trabalhamos com um time especializado, "
+"comprometido em transformar ideias em realidade!"
+msgstr ""
+"We are an innovative company focused on providing the best technological "
+"solutions to our clients. We work with a specialized team committed to "
+"turning ideas into reality!"
+
+#: paginas/templates/paginas/sobre.html:91
+msgid ""
+"Levar inovação e qualidade aos nossos clientes, criando produtos e serviços "
+"que geram valor e impacto real no mercado."
+msgstr ""
+"To bring innovation and quality to our clients by creating products and "
+"services that generate real value and impact in the market."
+
+#: paginas/templates/paginas/sobre.html:96
+msgid "Valores"
+msgstr "Values"
+
+#: paginas/templates/paginas/sobre.html:98
+msgid "Inovação constante"
+msgstr "Constant innovation"
+
+#: paginas/templates/paginas/sobre.html:99
+msgid "Comprometimento com a qualidade"
+msgstr "Commitment to quality"
+
+#: paginas/templates/paginas/sobre.html:100
+msgid "Transparência e ética"
+msgstr "Transparency and ethics"
+
+#: paginas/templates/paginas/sobre.html:101
+msgid "Respeito ao cliente e ao meio ambiente"
+msgstr "Respect for clients and the environment"
+
+#: paginas/templates/paginas/sobre.html:107
+msgid "Conheça Nossa Equipe"
+msgstr "Meet Our Team"
+
+#: paginas/templates/paginas/sobre.html:111
+msgid "Fundador & CEO"
+msgstr "Founder & CEO"
+
+#: paginas/templates/paginas/sobre.html:116
+msgid "Diretor de Marketing"
+msgstr "Marketing Director"
+
+#: paginas/templates/paginas/sobre.html:121
+msgid "Gerente de TI"
+msgstr "IT Manager"
+
+#: paginas/templates/paginas/sobre.html:127
+msgid "Por que Criamos a CodeHub?"
+msgstr "Why We Created CodeHub"
+
+#: paginas/templates/paginas/sobre.html:128
+msgid ""
+"A CodeHub surgiu da necessidade de preencher uma lacuna no mercado "
+"tecnológico: a falta de acesso à tecnologia de qualidade por parte de "
+"pequenos empreendedores, jovens criadores e profissionais autônomos que têm "
+"ideias incríveis, mas não possuem os recursos ou conhecimentos necessários "
+"para torná-las realidade."
+msgstr ""
+"CodeHub emerged from the need to fill a gap in the technology market: the "
+"lack of access to quality technology for small entrepreneurs, young "
+"creators, and independent professionals who have great ideas but lack the "
+"resources or knowledge to make them a reality."
+
+#: paginas/templates/paginas/sobre.html:130
+msgid ""
+"Com um espírito jovem, ousado e inovador, decidimos construir uma empresa "
+"com base sólida em ética, inclusão e impacto social. Queremos transformar "
+"vidas por meio do poder do código. Acreditamos que cada projeto é mais do "
+"que uma tarefa técnica: é uma ponte entre o presente e um futuro mais justo "
+"e conectado."
+msgstr ""
+"With a young, bold, and innovative spirit, we decided to build a company "
+"with a solid foundation in ethics, inclusion, and social impact. We want to "
+"transform lives through the power of code. We believe that each project is "
+"more than a technical task: it's a bridge between the present and a fairer, "
+"more connected future."
+
+#: paginas/templates/paginas/sobre.html:132
+msgid ""
+"Acreditamos firmemente que a tecnologia só faz sentido quando gera valor "
+"humano. Por isso, atuamos com transparência, compromisso com a verdade, "
+"responsabilidade em cada entrega e respeito absoluto pelas pessoas e suas "
+"histórias. A ética, para nós, não é um diferencial — é uma base inegociável."
+msgstr ""
+"We firmly believe that technology only makes sense when it generates human "
+"value. That's why we operate with transparency, commitment to truth, "
+"responsibility in every delivery, and absolute respect for people and their "
+"stories. Ethics, for us, is not a differentiator—it's a non-negotiable "
+"foundation."
+
+#: paginas/templates/paginas/sobre.html:134
+msgid ""
+"Nosso foco não está apenas no que fazemos, mas em como fazemos. Evitamos "
+"soluções prontas e padronizadas, e apostamos na criação sob medida: cada "
+"cliente é único, e seu projeto deve refletir isso."
+msgstr ""
+"Our focus is not just on what we do, but how we do it. We avoid ready-made, "
+"standardized solutions and bet on custom creation: each client is unique, "
+"and their project should reflect that."
+
+#: paginas/templates/paginas/sobre.html:136
+msgid ""
+"A CodeHub desenvolve soluções em diversas linguagens e plataformas: usamos "
+"Python, PHP, Java, JavaScript e frameworks como Django, Laravel, React, "
+"React Native e Flutter. Nossos projetos abrangem desde sites institucionais "
+"até sistemas de gestão complexos, aplicativos mobile, lojas virtuais e "
+"soluções desktop."
+msgstr ""
+"CodeHub develops solutions in various languages and platforms: we use "
+"Python, PHP, Java, JavaScript, and frameworks like Django, Laravel, React, "
+"React Native, and Flutter. Our projects range from institutional websites to "
+"complex management systems, mobile apps, e-commerce stores, and desktop "
+"solutions."
+
+#: paginas/templates/paginas/sobre.html:138
+msgid ""
+"Também acreditamos na educação como ferramenta de transformação. Por isso, "
+"oferecemos conteúdos gratuitos e pagos para ajudar a nova geração de "
+"programadores, designers e desenvolvedores a crescerem em carreira, "
+"propósito e visão."
+msgstr ""
+"We also believe in education as a tool for transformation. That's why we "
+"offer free and paid content to help the new generation of programmers, "
+"designers, and developers grow in their careers, purpose, and vision."
+
+#: paginas/templates/paginas/sobre.html:140
+msgid ""
+"Criar a CodeHub foi mais do que fundar uma empresa. Foi assumir uma missão "
+"de impacto social, cultural e econômico. Sabemos que existem milhares de "
+"mentes brilhantes em Angola, em África e em todo o mundo esperando por uma "
+"chance. Queremos ser essa chance, essa ponte, esse espaço seguro e criativo."
+msgstr ""
+"Creating CodeHub was more than founding a company. It was taking on a "
+"mission of social, cultural, and economic impact. We know there are "
+"thousands of brilliant minds in Angola, Africa, and around the world waiting "
+"for an opportunity. We want to be that opportunity, that bridge, that safe "
+"and creative space."
+
+#: paginas/templates/paginas/sobre.html:142
+msgid ""
+"Se você tem uma ideia, um sonho, um projeto ou apenas vontade de aprender e "
+"crescer no mundo da tecnologia, a CodeHub é pra você. Venha construir algo "
+"significativo com a gente."
+msgstr ""
+"If you have an idea, a dream, a project, or just the desire to learn and "
+"grow in the world of technology, CodeHub is for you. Come build something "
+"meaningful with us."
+
+#: paginas/templates/paginas/termos.html:5
+msgid "Termos"
+msgstr "Terms"
+
+#: paginas/templates/paginas/termos.html:12
+msgid "Ao acessar este site, você concorda com estes termos."
+msgstr "By accessing this site, you agree to these terms."
+
+#: paginas/templates/paginas/termos.html:13
+msgid ""
+"O conteúdo do site é apenas informativo. Não garantimos que todas as "
+"informações estejam sempre atualizadas ou corretas."
+msgstr ""
+"The site's content is for informational purposes only. We do not guarantee "
+"that all information is always up-to-date or correct."
+
+#: paginas/templates/paginas/termos.html:14
+msgid ""
+"É proibida a cópia, reprodução ou distribuição do conteúdo sem autorização."
+msgstr ""
+"Copying, reproducing, or distributing content without authorization is "
+"prohibited."
+
+#: paginas/templates/paginas/termos.html:15
+msgid "Podemos alterar estes termos a qualquer momento, sem aviso prévio."
+msgstr "We may change these terms at any time without prior notice."
+
+#: paginas/templates/paginas/termos.html:17
+msgid "Responsabilidades do Usuário"
+msgstr ""
+
+#: paginas/templates/paginas/termos.html:18
+msgid ""
+"Você se compromete a usar o site de maneira ética, respeitando a legislação "
+"vigente e os direitos de terceiros."
+msgstr ""
+
+#: paginas/templates/paginas/termos.html:19
+msgid ""
+"Qualquer tentativa de burlar, hackear ou causar prejuízo à integridade do "
+"site poderá resultar em bloqueio e medidas legais."
+msgstr ""
+
+#: paginas/templates/paginas/termos.html:22
+msgid ""
+"Respeitamos sua privacidade. Os dados coletados são utilizados apenas para "
+"melhorar sua experiência no site."
+msgstr ""
+
+#: paginas/templates/paginas/termos.html:23
+msgid ""
+"Não compartilhamos suas informações com terceiros sem seu consentimento, "
+"exceto quando exigido por lei."
+msgstr ""
+
+#: paginas/templates/paginas/termos.html:26
+#, fuzzy
+#| msgid ""
+#| "Se você tiver dúvidas sobre esta política, entre em contato conosco pela "
+#| "seção de contato do site."
+msgid ""
+"Caso tenha dúvidas sobre estes termos, entre em contato conosco por meio da "
+"seção de contato do site."
+msgstr ""
+"If you have questions about this policy, contact us through the contact "
+"section of the website."
+
+#: paginas/templates/paginas/termos.html:28
+msgid "Legislação Aplicável"
+msgstr ""
+
+#: paginas/templates/paginas/termos.html:29
+msgid ""
+"Estes termos são regidos pelas leis do país em que a empresa está sediada."
+msgstr ""
+
+#~ msgid "Galeria"
+#~ msgstr "Gallery"
+
+#~ msgid "Logo"
+#~ msgstr "Logo"
+
+#~ msgid "Notícias"
+#~ msgstr "News"
+
+#~ msgid "Uso Aceitável"
+#~ msgstr "Acceptable Use"
+
+#~ msgid ""
+#~ "Você concorda em não utilizar este site para qualquer finalidade ilegal "
+#~ "ou não autorizada."
+#~ msgstr ""
+#~ "You agree not to use this site for any illegal or unauthorized purpose."
+
+#~ msgid "É proibido tentar acessar áreas restritas do site sem autorização."
+#~ msgstr ""
+#~ "Attempting to access restricted areas of the site without authorization "
+#~ "is prohibited."
+
+#~ msgid ""
+#~ "Você é responsável por toda atividade que ocorra sob seu nome de usuário "
+#~ "e senha."
+#~ msgstr ""
+#~ "You are responsible for all activity that occurs under your username and "
+#~ "password."
+
+#~ msgid ""
+#~ "Nossos serviços são fornecidos \"no estado em que se encontram\", sem "
+#~ "garantias de qualquer tipo."
+#~ msgstr "Our services are provided \"as is\" without warranties of any kind."
+
+#~ msgid ""
+#~ "Em nenhuma circunstância seremos responsáveis por quaisquer danos "
+#~ "especiais, diretos, indiretos ou consequenciais."
+#~ msgstr ""
+#~ "In no event shall we be liable for any special, direct, indirect, or "
+#~ "consequential damages."
+
+#~ msgid ""
+#~ "Para dúvidas sobre estes termos, entre em contato conosco através dos "
+#~ "canais disponíveis no site."
+#~ msgstr ""
+#~ "For questions about these terms, contact us through the channels "
+#~ "available on the website."
